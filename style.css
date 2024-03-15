@@ -74,7 +74,6 @@ footer {
 
 .footer-right {
     width: 25%;
-    height: 100%;
 }
 
 .footer-center {
@@ -83,27 +82,34 @@ footer {
     justify-content: center;
 }
 
-
-
-.btn-toolbar i {
-    font-size: 2rem;
-}
-
 .btn-toolbar {
+    position: relative;
     color: white;
     height: 100%;
     padding: 1rem;
+    margin-right: 0.2rem;
     /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+}
+
+.fa-chevron-up {
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+}
+
+.btn-toolbar .fa-microphone {
+    font-size: 2rem;
 }
 
 .footer-left {
     width: 25%;
     position: relative;
 }
+
+
 
 .end-meeting {
     color: red;
@@ -112,8 +118,7 @@ footer {
     width: 40%;
     position: absolute;
     right: 0;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
-
-.end-meeting span {}
